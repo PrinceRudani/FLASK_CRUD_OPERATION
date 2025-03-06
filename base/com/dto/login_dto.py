@@ -1,4 +1,5 @@
 from typing import Optional
+from xml.dom import ValidationErr
 
 
 class LoginDTO:
@@ -9,7 +10,7 @@ class LoginDTO:
 
     def validate(self):
         if not all([self.login_username, self.login_password]):
-            raise Exception("Username and password are required.")
+            raise ValidationErr("Username and password are required.")
         return self
 
     def __repr__(self):

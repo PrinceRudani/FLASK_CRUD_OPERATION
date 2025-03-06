@@ -1,5 +1,4 @@
-from flask import render_template, request, redirect, url_for, make_response
-
+from flask import render_template, request, redirect, url_for, make_response, session
 from base import app
 from base.com.dao.login_dao import LoginDao
 from base.com.service.login_service import LoginService
@@ -8,7 +7,6 @@ from base.utils import my_logger
 
 logger = my_logger.get_logger()
 static_variables = StaticVariables()
-
 TOKEN = 'no-store, no-cache, must-revalidate, max-age=0'
 
 
@@ -91,9 +89,28 @@ def user_home_page():
 @LoginService.login_required(role=static_variables.ADMIN_ROLE)
 def logout():
     """Handle user logout."""
+    session.clear()
     response = redirect(url_for('load_login_page'))
+
+    # Delete cookies for access and refresh tokens
     response.delete_cookie(static_variables.TOKEN_ACCESS_KEY)
     response.delete_cookie(static_variables.TOKEN_REFRESH_KEY)
+
     logger.info("User logged out successfully")
-    response.headers['Cache-Control'] = TOKEN
+
+    # Set cache control headers to prevent caching
+    response.headers[
+        'Cache-Control'] = 'no-store, no-cache, must-revalidate, proxy-revalidate'
+    response.headers['Pragma'] = 'no-cache'
+    response.headers['Expires'] = '0'
+
     return response
+
+    # """Handle user logout."""
+    # session.clear()
+    # response = redirect(url_for('load_login_page'))
+    # response.delete_cookie(static_variables.TOKEN_ACCESS_KEY)
+    # response.delete_cookie(static_variables.TOKEN_REFRESH_KEY)
+    # logger.info("User logged out successfully")
+    # response.headers['Cache-Control'] = TOKEN
+    # return response

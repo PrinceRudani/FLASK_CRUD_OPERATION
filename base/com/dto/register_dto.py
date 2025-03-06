@@ -2,6 +2,11 @@ import re
 from typing import Optional
 
 
+class ValidationError(Exception):
+    """Custom exception for validation errors."""
+    pass
+
+
 class RegisterDTO:
     def __init__(self, register_firstname: Optional[str] = None,
                  register_lastname: Optional[str] = None,
@@ -22,12 +27,12 @@ class RegisterDTO:
                     self.register_gender, self.register_email,
                     self.register_username,
                     self.register_password]):
-            raise Exception("All fields must be filled and valid.")
+            raise ValidationError("All fields must be filled and valid.")
 
         password_pattern = re.compile(
             r'^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$')
         if not password_pattern.match(self.register_password):
-            raise Exception(
+            raise ValidationError(
                 "Password must be at least 8 characters long, include an uppercase letter, "
                 "a lowercase letter, a number, and a special character.")
 

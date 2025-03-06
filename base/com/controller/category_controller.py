@@ -1,16 +1,17 @@
 from flask import render_template, request, redirect, session
-import re
 from marshmallow import ValidationError
+
 from base import app
 from base.com.dto.category_dto import CategoryDTO
 from base.com.service.category_service import CategoryService
 from base.com.service.login_service import LoginService, static_variables
 from base.utils import my_logger
 from base.com.service.custome_service import AppServices
-from base.custom_enum.http_enum import ResponseMessageEnum,HttpStatusCodeEnum
+from base.custom_enum.http_enum import ResponseMessageEnum, HttpStatusCodeEnum
+
+VIEW_CATEGORY_URL = '/view_category'
 
 logger = my_logger.get_logger()
-password_pattern = re.compile(r'^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)[A-Za-z\d@$!%*?&]{8,}$')
 
 @app.route('/load_category')
 @LoginService.login_required(role=static_variables.ADMIN_ROLE)
@@ -50,7 +51,7 @@ def insert_category():
         logger.info(
             f'Category inserted successfully: Name -> {category_dto_lst["category_name"]},'
             f' Description -> {category_dto_lst["category_description"]}')
-        return redirect('/view_category')
+        return redirect(VIEW_CATEGORY_URL)
 
     except ValidationError as ve:
         logger.error(f'Validation error while inserting category: {str(ve)}')
@@ -90,10 +91,10 @@ def delete_category():
         category_id = request.form.get('category_id')
         category_service = CategoryService()
         category_service.delete_category_service(category_id)
-        return redirect('/view_category')
+        return redirect(VIEW_CATEGORY_URL)
     except Exception as e:
         logger.error(f"Error deleting category: {str(e)}")
-        return redirect('/view_category')
+        return redirect(VIEW_CATEGORY_URL)
 
 
 @app.route('/edit_category', methods=['GET'])
@@ -108,7 +109,7 @@ def edit_category():
                                category=category)
     except Exception as e:
         logger.error(f"Error editing category: {str(e)}")
-        return redirect('/view_category')
+        return redirect(VIEW_CATEGORY_URL)
 
 
 @app.route('/update_category', methods=['POST'])
@@ -130,7 +131,7 @@ def update_category():
         category_dto_lst = category_dto.load(data)
         category_service = CategoryService()
         category_service.update_category_service(category_id, category_dto_lst)
-        return redirect('/view_category')
+        return redirect(VIEW_CATEGORY_URL)
 
     except Exception as e:
         logger.error(f'Error updating category: {str(e)}')

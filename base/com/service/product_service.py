@@ -1,9 +1,8 @@
 import os
-
-
 from base.com.dao.product_dao import ProductDAO
 from base.com.vo.product_vo import ProductVO
 from base.com.vo.subcategory_vo import SubcategoryVO
+from base.utils.generate_excel_file import excel_data_from_product_table
 from base.utils.time_stamp import get_current_timestamp
 
 image_directory = os.path.join("base", "static", "product_images")
@@ -58,6 +57,7 @@ class ProductService:
 
             product_dao = ProductDAO()
             product_dao.insert_product(product_vo)
+            excel_data_from_product_table()
         except Exception as e:
             raise Exception(f"Failed to insert product: {str(e)}")
 
@@ -66,7 +66,10 @@ class ProductService:
         try:
             product_dao = ProductDAO()
             product_vo_lst = product_dao.view_product()
+            print(product_vo_lst)
+            excel_data_from_product_table()
             return product_vo_lst
+
         except Exception as e:
             raise Exception(f"Failed to fetch products: {str(e)}")
 
@@ -78,6 +81,7 @@ class ProductService:
             product_vo.modify_at = modify_at
             product_dao = ProductDAO()
             product_dao.delete_product(product_id)
+            excel_data_from_product_table()
         except Exception as e:
             raise Exception(f"Failed to delete product: {str(e)}")
 
@@ -124,5 +128,6 @@ class ProductService:
 
             product_dao = ProductDAO()
             product_dao.update_product(product_vo)
+            excel_data_from_product_table()
         except Exception as e:
             raise Exception(f"Failed to update product: {str(e)}")
