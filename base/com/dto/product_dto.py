@@ -16,7 +16,7 @@ class ProductDTO:
                     self.product_price,
                     self.product_image_name, self.product_image_path,
                     self.product_quantity]):
-            raise Exception("All product fields must be filled and valid.")
+            raise ValueError("All product fields must be filled and valid.")
         return self
 
     def update_validate(self):

@@ -1,5 +1,6 @@
 from base.com.dao.subcategory_dao import SubCategoryDAO
 from base.com.vo.subcategory_vo import SubcategoryVO
+from base.utils.generate_excel_file import excel_data_from_subcategory_table
 from base.utils.my_logger import get_logger
 from base.utils.time_stamp import get_current_timestamp
 
@@ -22,6 +23,9 @@ class SubcategoryService:
 
         sub_category_dao = SubCategoryDAO()
         sub_category_dao.insert_sub_category(sub_category_vo)
+
+        excel_data_from_subcategory_table()
+        #
         logger.info(
             f"Subcategory inserted: category_id={subcategory_category_id}, name={subcategory_dto_lst.sub_category_name}")
 
@@ -39,6 +43,9 @@ class SubcategoryService:
         sub_category_vo.modify_at = modify_at
         sub_category_dao = SubCategoryDAO()
         sub_category_dao.delete_sub_category(sub_category_id)
+
+        excel_data_from_subcategory_table()
+
         logger.info(f"Subcategory deleted: id={sub_category_id}")
 
     @staticmethod
@@ -66,5 +73,6 @@ class SubcategoryService:
 
         sub_category_dao = SubCategoryDAO()
         sub_category_dao.update_sub_category(sub_category_vo)
+        excel_data_from_subcategory_table()
         logger.info(
             f"Subcategory updated: id={sub_category_id}, name={subcategory_dto_lst.sub_category_name}")

@@ -9,6 +9,7 @@ class CategoryDAO:
         """Insert a new category into database."""
         db.session.add(category_vo)
         db.session.commit()
+        print("category_vo",CategoryVO)
         return category_vo
 
     @staticmethod
@@ -16,7 +17,7 @@ class CategoryDAO:
         """Retrieve all non-deleted categories."""
         category_vo_lst = CategoryVO.query.filter(
             CategoryVO.is_delete == False).all()
-        # print(category_vo_lst)
+        print(category_vo_lst)
         return category_vo_lst
 
     @staticmethod

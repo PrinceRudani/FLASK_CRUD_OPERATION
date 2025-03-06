@@ -94,6 +94,15 @@
             color: #0056b3;
         }
     </style>
+    <script type="text/javascript">
+        // Prevent the browser from loading the cached page when hitting the back button
+        if (window.history && window.history.pushState) {
+            window.history.pushState(null, null, window.location.href);
+            window.onpopstate = function () {
+                window.history.pushState(null, null, window.location.href);
+            };
+        }
+    </script>
     <script>
         function togglePasswordVisibility() {
             const passwordInput = document.getElementById('register_password');

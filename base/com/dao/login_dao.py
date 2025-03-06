@@ -35,13 +35,13 @@ class LoginDao:
             LoginVO: User object if credentials are valid, None otherwise
         """
         user = LoginVO.query.filter_by(login_username=username).first()
-        print("User found:", user)
+        # print("User found:", user)
         logger.info(f"Query Result for username {username}: {user}")
 
         if user and user.login_status == 0  :
             if user.login_password == password:
                 logger.info(f"User {username} validated successfully.")
-                print("User validated successfully.")
+                # print("User validated successfully.")
                 return user
             else:
                 logger.warning(f"Invalid password for user: {username}")

@@ -83,7 +83,7 @@ def insert_sub_category():
         return redirect('/load_sub_category')
 
 
-@app.route(VIEW_SUBCATEGORY_PATH, methods=['GET', 'POST'])
+@app.route('/view_sub_category', methods=['GET', 'POST'])
 @LoginService.login_required(role="ADMIN")
 def view_sub_category():
     """View all subcategories.
