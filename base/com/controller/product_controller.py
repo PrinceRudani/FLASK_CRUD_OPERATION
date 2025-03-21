@@ -8,8 +8,8 @@ from base.com.dao.subcategory_dao import SubCategoryDAO
 from base.com.dto.product_dto import ProductDTO
 from base.com.service.login_service import LoginService
 from base.com.service.product_service import ProductService
+from base.custom_enum.http_enum import HttpStatusCodeEnum, ResponseMessageEnum
 from base.utils import my_logger
-from base.custom_enum.http_enum import HttpStatusCodeEnum,ResponseMessageEnum
 
 logger = my_logger.get_logger()
 
@@ -48,7 +48,8 @@ def ajax_load_subcategory():
         return jsonify([i.as_dict() for i in sub_cat])
     except Exception as e:
         logger.error(f"Error in ajax_load_subcategory: {str(e)}")
-        return jsonify({"error": ResponseMessageEnum.UNEXPECTED_ERROR_MESSAGE}), 500
+        return jsonify(
+            {"error": ResponseMessageEnum.UNEXPECTED_ERROR_MESSAGE}), 500
 
 
 @app.route("/insert_product", methods=["POST"])

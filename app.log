@@ -17661,3 +17661,2273 @@ with app.app_context(). See the documentation for more information.
 
 2025-03-06 10:08:49,458 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
 
+2025-03-06 10:39:15,696 - login_dao.py - FlaskMVCProject -  validate_login - INFO - Query Result for username prince: <LoginVO 25>
+
+2025-03-06 10:39:15,696 - login_dao.py - FlaskMVCProject -  validate_login - INFO - User prince validated successfully.
+
+2025-03-06 10:39:15,697 - login_service.py - FlaskMVCProject -  generate_token - DEBUG - Creating access token with payload: {'exp': datetime.datetime(2025, 3, 6, 5, 39, 15, 696997, tzinfo=datetime.timezone.utc), 'iat': datetime.datetime(2025, 3, 6, 5, 9, 15, 697005, tzinfo=datetime.timezone.utc), 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 10:39:15,697 - login_service.py - FlaskMVCProject -  generate_token - INFO - Access token payload created successfully
+
+2025-03-06 10:39:15,697 - login_controller.py - FlaskMVCProject -  load_home_page - INFO - Access & Refresh token created for user: prince
+
+2025-03-06 10:39:15,702 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741239555, 'iat': 1741237755, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 10:39:15,702 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 10:39:15,702 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-06 10:39:17,854 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741239555, 'iat': 1741237755, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 10:39:17,854 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 10:39:17,864 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - ERROR - Error in excel_data_from_product_table: 'ProductVO' object has no attribute 'category_name'
+
+2025-03-06 10:39:17,864 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 10:48:28,572 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741239555, 'iat': 1741237755, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 10:48:28,573 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 10:48:28,583 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Category VO: <ProductVO 1>
+
+2025-03-06 10:48:28,583 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Subcategory VO: <SubcategoryVO 4>
+
+2025-03-06 10:48:28,583 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Product VO: <CategoryVO 2>
+
+2025-03-06 10:48:28,583 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - WARNING - Category data is missing or malformed for <ProductVO 1>
+
+2025-03-06 10:48:28,583 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Category VO: <ProductVO 2>
+
+2025-03-06 10:48:28,583 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Subcategory VO: <SubcategoryVO 3>
+
+2025-03-06 10:48:28,583 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Product VO: <CategoryVO 4>
+
+2025-03-06 10:48:28,583 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - WARNING - Category data is missing or malformed for <ProductVO 2>
+
+2025-03-06 10:48:28,583 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Category VO: <ProductVO 3>
+
+2025-03-06 10:48:28,583 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Subcategory VO: <SubcategoryVO 3>
+
+2025-03-06 10:48:28,583 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Product VO: <CategoryVO 4>
+
+2025-03-06 10:48:28,583 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - WARNING - Category data is missing or malformed for <ProductVO 3>
+
+2025-03-06 10:48:28,583 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 10:48:28,589 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 10:48:28,590 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 10:48:28,590 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 10:48:28,932 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741239555, 'iat': 1741237755, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 10:48:28,932 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 10:48:28,935 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Category VO: <ProductVO 1>
+
+2025-03-06 10:48:28,935 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Subcategory VO: <SubcategoryVO 4>
+
+2025-03-06 10:48:28,935 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Product VO: <CategoryVO 2>
+
+2025-03-06 10:48:28,935 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - WARNING - Category data is missing or malformed for <ProductVO 1>
+
+2025-03-06 10:48:28,936 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Category VO: <ProductVO 2>
+
+2025-03-06 10:48:28,936 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Subcategory VO: <SubcategoryVO 3>
+
+2025-03-06 10:48:28,936 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Product VO: <CategoryVO 4>
+
+2025-03-06 10:48:28,936 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - WARNING - Category data is missing or malformed for <ProductVO 2>
+
+2025-03-06 10:48:28,936 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Category VO: <ProductVO 3>
+
+2025-03-06 10:48:28,936 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Subcategory VO: <SubcategoryVO 3>
+
+2025-03-06 10:48:28,936 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Product VO: <CategoryVO 4>
+
+2025-03-06 10:48:28,936 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - WARNING - Category data is missing or malformed for <ProductVO 3>
+
+2025-03-06 10:48:28,936 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 10:48:28,942 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 10:48:28,942 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 10:48:28,942 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 10:48:30,088 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741239555, 'iat': 1741237755, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 10:48:30,088 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 10:48:30,089 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-06 10:48:31,783 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741239555, 'iat': 1741237755, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 10:48:31,783 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 10:48:31,790 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Category VO: <ProductVO 1>
+
+2025-03-06 10:48:31,790 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Subcategory VO: <SubcategoryVO 4>
+
+2025-03-06 10:48:31,790 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Product VO: <CategoryVO 2>
+
+2025-03-06 10:48:31,790 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - WARNING - Category data is missing or malformed for <ProductVO 1>
+
+2025-03-06 10:48:31,791 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Category VO: <ProductVO 2>
+
+2025-03-06 10:48:31,791 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Subcategory VO: <SubcategoryVO 3>
+
+2025-03-06 10:48:31,791 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Product VO: <CategoryVO 4>
+
+2025-03-06 10:48:31,791 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - WARNING - Category data is missing or malformed for <ProductVO 2>
+
+2025-03-06 10:48:31,791 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Category VO: <ProductVO 3>
+
+2025-03-06 10:48:31,791 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Subcategory VO: <SubcategoryVO 3>
+
+2025-03-06 10:48:31,791 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Product VO: <CategoryVO 4>
+
+2025-03-06 10:48:31,791 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - WARNING - Category data is missing or malformed for <ProductVO 3>
+
+2025-03-06 10:48:31,792 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 10:48:31,799 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 10:48:31,799 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 10:48:31,799 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 10:54:33,567 - login_dao.py - FlaskMVCProject -  validate_login - INFO - Query Result for username prince: <LoginVO 25>
+
+2025-03-06 10:54:33,567 - login_dao.py - FlaskMVCProject -  validate_login - INFO - User prince validated successfully.
+
+2025-03-06 10:54:33,567 - login_service.py - FlaskMVCProject -  generate_token - DEBUG - Creating access token with payload: {'exp': datetime.datetime(2025, 3, 6, 5, 54, 33, 567635, tzinfo=datetime.timezone.utc), 'iat': datetime.datetime(2025, 3, 6, 5, 24, 33, 567642, tzinfo=datetime.timezone.utc), 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 10:54:33,567 - login_service.py - FlaskMVCProject -  generate_token - INFO - Access token payload created successfully
+
+2025-03-06 10:54:33,568 - login_controller.py - FlaskMVCProject -  load_home_page - INFO - Access & Refresh token created for user: prince
+
+2025-03-06 10:54:33,572 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741240473, 'iat': 1741238673, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 10:54:33,572 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 10:54:33,572 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-06 10:54:35,967 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741240473, 'iat': 1741238673, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 10:54:35,967 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 10:54:35,977 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 10:54:35,981 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 10:54:35,981 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 10:54:35,981 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 10:54:51,365 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741240473, 'iat': 1741238673, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 10:54:51,366 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 10:54:51,374 - product_controller.py - FlaskMVCProject -  load_product - INFO - load product successfully
+
+2025-03-06 10:54:53,158 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741240473, 'iat': 1741238673, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 10:54:53,159 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 10:54:53,162 - product_controller.py - FlaskMVCProject -  ajax_load_subcategory - INFO - ajax load subcategory successfully
+
+2025-03-06 10:54:54,653 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741240473, 'iat': 1741238673, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 10:54:54,653 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 10:54:54,656 - product_controller.py - FlaskMVCProject -  ajax_load_subcategory - INFO - ajax load subcategory successfully
+
+2025-03-06 10:55:12,934 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741240473, 'iat': 1741238673, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 10:55:12,934 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 10:55:12,949 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 10:55:12,954 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 10:55:12,954 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 10:55:12,954 - product_controller.py - FlaskMVCProject -  insert_product - INFO - Product inserted successfully.
+
+2025-03-06 10:55:12,957 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741240473, 'iat': 1741238673, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 10:55:12,957 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 10:55:12,960 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 10:55:12,964 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 10:55:12,964 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 10:55:12,964 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 10:59:33,034 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741239555, 'iat': 1741237755, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 10:59:33,034 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 10:59:33,083 - product_controller.py - FlaskMVCProject -  load_product - INFO - load product successfully
+
+2025-03-06 10:59:37,467 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741239555, 'iat': 1741237755, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 10:59:37,467 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 10:59:37,473 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 10:59:37,482 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 10:59:37,482 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 10:59:37,483 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 10:59:41,618 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741239555, 'iat': 1741237755, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 10:59:41,618 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 10:59:41,618 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-06 10:59:42,893 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741239555, 'iat': 1741237755, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 10:59:42,893 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 10:59:42,900 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 10:59:42,906 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 10:59:42,906 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 10:59:42,906 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:01:35,207 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741239555, 'iat': 1741237755, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:01:35,207 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:01:35,256 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 11:01:35,260 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 11:01:35,260 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:02:46,210 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741239555, 'iat': 1741237755, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:02:46,210 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:02:46,213 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 11:02:46,216 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 11:02:46,217 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:06:03,799 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741239555, 'iat': 1741237755, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:06:03,799 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:06:03,808 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 11:06:03,813 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 11:06:03,813 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 11:06:03,814 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:13:40,273 - login_dao.py - FlaskMVCProject -  validate_login - INFO - Query Result for username prince: <LoginVO 25>
+
+2025-03-06 11:13:40,273 - login_dao.py - FlaskMVCProject -  validate_login - INFO - User prince validated successfully.
+
+2025-03-06 11:13:40,273 - login_service.py - FlaskMVCProject -  generate_token - DEBUG - Creating access token with payload: {'exp': datetime.datetime(2025, 3, 6, 6, 13, 40, 273676, tzinfo=datetime.timezone.utc), 'iat': datetime.datetime(2025, 3, 6, 5, 43, 40, 273690, tzinfo=datetime.timezone.utc), 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:13:40,273 - login_service.py - FlaskMVCProject -  generate_token - INFO - Access token payload created successfully
+
+2025-03-06 11:13:40,274 - login_controller.py - FlaskMVCProject -  load_home_page - INFO - Access & Refresh token created for user: prince
+
+2025-03-06 11:13:40,281 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741241620, 'iat': 1741239820, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:13:40,281 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:13:40,281 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-06 11:13:42,028 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741241620, 'iat': 1741239820, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:13:42,028 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:13:42,047 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:15:48,014 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741241620, 'iat': 1741239820, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:15:48,014 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:15:48,063 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:17:10,404 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741241620, 'iat': 1741239820, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:17:10,405 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:17:10,418 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Category VO: <ProductVO 1>
+
+2025-03-06 11:17:10,418 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Subcategory VO: <SubcategoryVO 4>
+
+2025-03-06 11:17:10,418 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Product VO: <CategoryVO 2>
+
+2025-03-06 11:17:10,418 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - WARNING - Category data is missing or malformed for <ProductVO 1>
+
+2025-03-06 11:17:10,418 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Category VO: <ProductVO 2>
+
+2025-03-06 11:17:10,418 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Subcategory VO: <SubcategoryVO 3>
+
+2025-03-06 11:17:10,418 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Product VO: <CategoryVO 4>
+
+2025-03-06 11:17:10,418 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - WARNING - Category data is missing or malformed for <ProductVO 2>
+
+2025-03-06 11:17:10,418 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Category VO: <ProductVO 3>
+
+2025-03-06 11:17:10,418 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Subcategory VO: <SubcategoryVO 3>
+
+2025-03-06 11:17:10,418 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Product VO: <CategoryVO 4>
+
+2025-03-06 11:17:10,418 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - WARNING - Category data is missing or malformed for <ProductVO 3>
+
+2025-03-06 11:17:10,418 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Category VO: <ProductVO 12>
+
+2025-03-06 11:17:10,418 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Subcategory VO: <SubcategoryVO 6>
+
+2025-03-06 11:17:10,418 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Product VO: <CategoryVO 3>
+
+2025-03-06 11:17:10,418 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - WARNING - Category data is missing or malformed for <ProductVO 12>
+
+2025-03-06 11:17:10,419 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 11:17:10,426 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 11:17:10,426 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 11:17:10,426 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:17:31,222 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741241620, 'iat': 1741239820, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:17:31,222 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:17:31,228 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Category VO: <ProductVO 1>
+
+2025-03-06 11:17:31,228 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Subcategory VO: <SubcategoryVO 4>
+
+2025-03-06 11:17:31,228 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Product VO: <CategoryVO 2>
+
+2025-03-06 11:17:31,228 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - WARNING - Category data is missing or malformed for <ProductVO 1>
+
+2025-03-06 11:17:31,229 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Category VO: <ProductVO 2>
+
+2025-03-06 11:17:31,229 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Subcategory VO: <SubcategoryVO 3>
+
+2025-03-06 11:17:31,229 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Product VO: <CategoryVO 4>
+
+2025-03-06 11:17:31,229 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - WARNING - Category data is missing or malformed for <ProductVO 2>
+
+2025-03-06 11:17:31,229 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Category VO: <ProductVO 3>
+
+2025-03-06 11:17:31,229 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Subcategory VO: <SubcategoryVO 3>
+
+2025-03-06 11:17:31,229 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Product VO: <CategoryVO 4>
+
+2025-03-06 11:17:31,229 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - WARNING - Category data is missing or malformed for <ProductVO 3>
+
+2025-03-06 11:17:31,229 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Category VO: <ProductVO 12>
+
+2025-03-06 11:17:31,229 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Subcategory VO: <SubcategoryVO 6>
+
+2025-03-06 11:17:31,229 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - DEBUG - Product VO: <CategoryVO 3>
+
+2025-03-06 11:17:31,229 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - WARNING - Category data is missing or malformed for <ProductVO 12>
+
+2025-03-06 11:17:31,230 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 11:17:31,234 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 11:17:31,234 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 11:17:31,234 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:17:43,256 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741241620, 'iat': 1741239820, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:17:43,256 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:17:43,265 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 11:17:43,271 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 11:17:43,271 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 11:17:43,271 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:17:51,888 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741241620, 'iat': 1741239820, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:17:51,888 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:17:51,892 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 11:17:51,895 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 11:17:51,895 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 11:17:51,895 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:18:02,060 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741241620, 'iat': 1741239820, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:18:02,060 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:18:02,066 - product_controller.py - FlaskMVCProject -  edit_product - INFO - edit product successfully
+
+2025-03-06 11:18:02,163 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741241620, 'iat': 1741239820, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:18:02,163 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:18:02,166 - product_controller.py - FlaskMVCProject -  ajax_load_subcategory - INFO - ajax load subcategory successfully
+
+2025-03-06 11:18:03,382 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741241620, 'iat': 1741239820, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:18:03,382 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:18:03,385 - product_controller.py - FlaskMVCProject -  ajax_load_subcategory - INFO - ajax load subcategory successfully
+
+2025-03-06 11:18:04,582 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741241620, 'iat': 1741239820, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:18:04,582 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:18:04,628 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 11:18:04,631 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 11:18:04,631 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 11:18:04,631 - product_controller.py - FlaskMVCProject -  update_product - INFO - Product updated successfully
+
+2025-03-06 11:18:04,635 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741241620, 'iat': 1741239820, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:18:04,635 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:18:04,637 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 11:18:04,641 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 11:18:04,642 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 11:18:04,642 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:25:34,016 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741241620, 'iat': 1741239820, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:25:34,016 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:25:34,061 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - ERROR - Error in excel_data_from_product_table: [Errno 2] No such file or directory: 'product_image_name'
+
+2025-03-06 11:25:34,068 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:25:37,422 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741241620, 'iat': 1741239820, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:25:37,423 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:25:37,427 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - ERROR - Error in excel_data_from_product_table: [Errno 2] No such file or directory: 'product_image_name'
+
+2025-03-06 11:25:37,427 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:25:40,226 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741241620, 'iat': 1741239820, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:25:40,226 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:25:40,227 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-06 11:25:41,201 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741241620, 'iat': 1741239820, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:25:41,202 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:25:41,205 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - ERROR - Error in excel_data_from_product_table: [Errno 2] No such file or directory: 'product_image_name'
+
+2025-03-06 11:25:41,205 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:25:56,756 - login_dao.py - FlaskMVCProject -  validate_login - INFO - Query Result for username prince: <LoginVO 25>
+
+2025-03-06 11:25:56,756 - login_dao.py - FlaskMVCProject -  validate_login - INFO - User prince validated successfully.
+
+2025-03-06 11:25:56,756 - login_service.py - FlaskMVCProject -  generate_token - DEBUG - Creating access token with payload: {'exp': datetime.datetime(2025, 3, 6, 6, 25, 56, 756716, tzinfo=datetime.timezone.utc), 'iat': datetime.datetime(2025, 3, 6, 5, 55, 56, 756723, tzinfo=datetime.timezone.utc), 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:25:56,756 - login_service.py - FlaskMVCProject -  generate_token - INFO - Access token payload created successfully
+
+2025-03-06 11:25:56,757 - login_controller.py - FlaskMVCProject -  load_home_page - INFO - Access & Refresh token created for user: prince
+
+2025-03-06 11:25:56,763 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741242356, 'iat': 1741240556, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:25:56,763 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:25:56,763 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-06 11:25:58,625 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741242356, 'iat': 1741240556, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:25:58,625 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:25:58,635 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - ERROR - Error in excel_data_from_product_table: [Errno 2] No such file or directory: 'product_image_name'
+
+2025-03-06 11:25:58,635 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:26:53,970 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741242356, 'iat': 1741240556, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:26:53,971 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:26:53,971 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-06 11:26:54,861 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741242356, 'iat': 1741240556, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:26:54,861 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:26:57,316 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - ERROR - Error in excel_data_from_product_table: [Errno 2] No such file or directory: 'product_image_name'
+
+2025-03-06 11:27:04,229 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:27:13,581 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741242356, 'iat': 1741240556, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:27:13,581 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:28:51,558 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - ERROR - Error in excel_data_from_product_table: [Errno 2] No such file or directory: 'product_image_name'
+
+2025-03-06 11:29:31,989 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741242356, 'iat': 1741240556, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:29:31,990 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:29:32,037 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 11:29:32,038 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: a bytes-like object is required, not 'str'
+
+2025-03-06 11:29:32,038 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 11:29:32,038 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:29:37,577 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741242356, 'iat': 1741240556, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:29:37,577 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:29:37,580 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 11:29:37,581 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: a bytes-like object is required, not 'str'
+
+2025-03-06 11:29:37,581 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 11:29:37,581 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:29:41,384 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741242356, 'iat': 1741240556, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:29:41,384 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:29:41,387 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 11:29:41,388 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: a bytes-like object is required, not 'str'
+
+2025-03-06 11:29:41,388 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 11:29:41,388 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:29:46,841 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741242356, 'iat': 1741240556, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:29:46,841 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:29:46,841 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-06 11:29:47,932 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741242356, 'iat': 1741240556, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:29:47,932 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:29:47,935 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 11:29:47,936 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: a bytes-like object is required, not 'str'
+
+2025-03-06 11:29:47,936 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 11:29:47,936 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:31:25,716 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741242356, 'iat': 1741240556, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:31:25,716 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:31:25,730 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 11:31:25,738 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 11:31:25,738 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 11:31:25,738 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:41:58,719 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741242356, 'iat': 1741240556, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:41:58,719 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:41:58,763 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 11:41:58,764 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: a bytes-like object is required, not 'str'
+
+2025-03-06 11:41:58,764 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 11:41:58,764 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:42:27,034 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741242356, 'iat': 1741240556, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:42:27,034 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:42:27,076 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 11:42:27,077 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: a bytes-like object is required, not 'str'
+
+2025-03-06 11:42:27,077 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 11:42:27,077 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:43:13,677 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741242356, 'iat': 1741240556, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:43:13,677 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:43:13,717 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 11:43:13,721 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 11:43:13,721 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 11:43:13,721 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:43:58,306 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741242356, 'iat': 1741240556, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:43:58,306 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:43:58,309 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 11:43:58,313 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 11:43:58,313 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 11:43:58,313 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:46:17,480 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741242356, 'iat': 1741240556, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:46:17,480 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:46:17,525 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 11:46:17,529 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 11:46:17,529 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 11:46:17,529 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:51:08,271 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741242356, 'iat': 1741240556, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:51:08,271 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:51:08,318 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 11:51:08,322 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 11:51:08,322 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 11:51:08,322 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:51:18,903 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741242356, 'iat': 1741240556, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:51:18,903 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:51:18,910 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 11:51:18,915 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 11:51:18,916 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 11:51:18,916 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:55:46,172 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741242356, 'iat': 1741240556, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:55:46,172 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:55:46,217 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 11:55:46,223 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 11:55:46,224 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 11:55:46,224 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:56:19,768 - login_dao.py - FlaskMVCProject -  validate_login - INFO - Query Result for username prince: <LoginVO 25>
+
+2025-03-06 11:56:19,768 - login_dao.py - FlaskMVCProject -  validate_login - INFO - User prince validated successfully.
+
+2025-03-06 11:56:19,769 - login_service.py - FlaskMVCProject -  generate_token - DEBUG - Creating access token with payload: {'exp': datetime.datetime(2025, 3, 6, 6, 56, 19, 769023, tzinfo=datetime.timezone.utc), 'iat': datetime.datetime(2025, 3, 6, 6, 26, 19, 769029, tzinfo=datetime.timezone.utc), 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:56:19,769 - login_service.py - FlaskMVCProject -  generate_token - INFO - Access token payload created successfully
+
+2025-03-06 11:56:19,769 - login_controller.py - FlaskMVCProject -  load_home_page - INFO - Access & Refresh token created for user: prince
+
+2025-03-06 11:56:19,775 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:56:19,775 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:56:19,775 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-06 11:56:21,594 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:56:21,594 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:56:21,602 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 11:56:21,606 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 11:56:21,606 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 11:56:21,607 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:56:37,529 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:56:37,529 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:56:37,577 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 11:56:37,582 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 11:56:37,582 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 11:56:37,582 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:56:51,555 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:56:51,555 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:56:51,601 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 11:56:51,605 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 11:56:51,605 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 11:56:51,606 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:57:15,495 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:57:15,495 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:57:15,542 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 11:57:15,547 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 11:57:15,547 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 11:57:15,547 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 11:57:50,893 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 11:57:50,894 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 11:57:50,941 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 11:57:50,946 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 11:57:50,946 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 11:57:50,947 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:03:30,049 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:03:30,050 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:03:30,096 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:03:30,097 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: [Errno 2] No such file or directory: 'static/product_images/14pro.jpg'
+
+2025-03-06 12:03:30,097 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:03:30,097 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:04:41,894 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:04:41,894 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:04:41,939 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:04:41,940 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: [Errno 2] No such file or directory: 'static/product_images/14pro.jpg'
+
+2025-03-06 12:04:41,940 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:04:41,940 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:05:31,748 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:05:31,748 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:05:31,796 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:05:31,797 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: [Errno 2] No such file or directory: 'static/product_images/14pro.jpg'
+
+2025-03-06 12:05:31,797 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:05:31,797 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:07:10,418 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:07:10,418 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:07:10,466 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:07:10,467 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: [Errno 2] No such file or directory: 'static/product_images/14pro.jpg'
+
+2025-03-06 12:07:10,467 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:07:10,467 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:08:49,007 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:08:49,007 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:08:49,048 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:08:49,049 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: [Errno 2] No such file or directory: 'static/product_images/14pro.jpg'
+
+2025-03-06 12:08:49,049 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:08:49,050 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:09:14,969 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:09:14,969 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:09:15,016 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:09:15,017 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: [Errno 2] No such file or directory: 'static/product_images/14pro.jpg'
+
+2025-03-06 12:09:15,017 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:09:15,017 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:09:15,354 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:09:15,354 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:09:15,360 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:09:15,361 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: [Errno 2] No such file or directory: 'static/product_images/14pro.jpg'
+
+2025-03-06 12:09:15,361 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:09:15,361 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:09:46,261 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:09:46,261 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:09:46,264 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:09:46,265 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: [Errno 2] No such file or directory: 'static/product_images/14pro.jpg'
+
+2025-03-06 12:09:46,265 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:09:46,265 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:09:50,353 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:09:50,353 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:09:50,357 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:09:50,357 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: [Errno 2] No such file or directory: 'static/product_images/14pro.jpg'
+
+2025-03-06 12:09:50,358 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:09:50,358 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:09:57,552 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:09:57,552 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:09:57,555 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:09:57,556 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: [Errno 2] No such file or directory: 'static/product_images/14pro.jpg'
+
+2025-03-06 12:09:57,556 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:09:57,556 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:11:41,823 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:11:41,824 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:11:41,871 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:11:41,872 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: [Errno 2] No such file or directory: 'static/product_images/14pro.jpg'
+
+2025-03-06 12:11:41,872 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:11:41,872 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:12:30,758 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:12:30,758 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:12:30,776 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:13:14,730 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:13:14,730 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:13:14,747 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:13:19,043 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:13:19,044 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:13:19,054 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:14:35,512 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:14:35,512 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:14:35,556 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:14:35,557 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: a bytes-like object is required, not 'str'
+
+2025-03-06 12:14:35,557 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:14:35,557 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:14:41,366 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:14:41,366 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:14:41,370 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:14:41,371 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: a bytes-like object is required, not 'str'
+
+2025-03-06 12:14:41,371 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:14:41,371 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:15:08,711 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:15:08,711 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:15:08,711 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:15:08,722 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:15:08,730 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:15:08,740 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:15:38,585 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:15:38,585 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:15:38,604 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:15:56,185 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:15:56,186 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:15:56,205 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:16:32,683 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:16:32,683 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:16:32,727 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:16:32,728 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: a bytes-like object is required, not 'str'
+
+2025-03-06 12:16:32,728 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:16:32,728 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:20:11,919 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:20:11,920 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:20:11,962 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:20:11,963 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: a bytes-like object is required, not 'str'
+
+2025-03-06 12:20:11,963 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:20:11,963 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:20:23,185 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:20:23,185 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:20:23,231 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:20:23,232 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: a bytes-like object is required, not 'str'
+
+2025-03-06 12:20:23,232 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:20:23,232 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:21:20,137 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:21:20,138 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:21:20,158 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:22:20,254 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:22:20,254 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:22:20,302 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:22:20,303 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: a bytes-like object is required, not 'str'
+
+2025-03-06 12:22:20,303 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:22:20,303 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:22:21,598 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:22:21,599 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:22:21,603 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:22:21,604 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: a bytes-like object is required, not 'str'
+
+2025-03-06 12:22:21,605 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:22:21,605 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:22:32,074 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:22:32,074 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:22:32,114 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:22:32,114 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: a bytes-like object is required, not 'str'
+
+2025-03-06 12:22:32,115 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:22:32,115 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:26:14,050 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741244179, 'iat': 1741242379, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:26:14,051 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:26:14,094 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:26:14,095 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+
+2025-03-06 12:26:14,095 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:26:14,095 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:28:29,455 - login_dao.py - FlaskMVCProject -  validate_login - INFO - Query Result for username prince: <LoginVO 25>
+
+2025-03-06 12:28:29,455 - login_dao.py - FlaskMVCProject -  validate_login - INFO - User prince validated successfully.
+
+2025-03-06 12:28:29,455 - login_service.py - FlaskMVCProject -  generate_token - DEBUG - Creating access token with payload: {'exp': datetime.datetime(2025, 3, 6, 7, 28, 29, 455410, tzinfo=datetime.timezone.utc), 'iat': datetime.datetime(2025, 3, 6, 6, 58, 29, 455420, tzinfo=datetime.timezone.utc), 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:28:29,455 - login_service.py - FlaskMVCProject -  generate_token - INFO - Access token payload created successfully
+
+2025-03-06 12:28:29,455 - login_controller.py - FlaskMVCProject -  load_home_page - INFO - Access & Refresh token created for user: prince
+
+2025-03-06 12:28:29,460 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741246109, 'iat': 1741244309, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:28:29,460 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:28:29,460 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-06 12:28:50,920 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741246109, 'iat': 1741244309, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:28:50,920 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:28:50,970 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:28:51,011 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 12:28:51,011 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:28:51,011 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:29:31,734 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741246109, 'iat': 1741244309, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:29:31,734 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:29:31,739 - product_controller.py - FlaskMVCProject -  load_product - INFO - load product successfully
+
+2025-03-06 12:29:33,312 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741246109, 'iat': 1741244309, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:29:33,312 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:29:33,315 - product_controller.py - FlaskMVCProject -  ajax_load_subcategory - INFO - ajax load subcategory successfully
+
+2025-03-06 12:29:34,674 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741246109, 'iat': 1741244309, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:29:34,674 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:29:34,677 - product_controller.py - FlaskMVCProject -  ajax_load_subcategory - INFO - ajax load subcategory successfully
+
+2025-03-06 12:29:36,057 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741246109, 'iat': 1741244309, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:29:36,058 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:29:36,061 - product_controller.py - FlaskMVCProject -  ajax_load_subcategory - INFO - ajax load subcategory successfully
+
+2025-03-06 12:29:55,624 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741246109, 'iat': 1741244309, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:29:55,625 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:29:55,633 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:29:55,657 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: [Errno 2] No such file or directory: 'static/product_images/Screenshot from 2025-03-05 14-32-05.png'
+
+2025-03-06 12:29:55,657 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:29:55,658 - product_controller.py - FlaskMVCProject -  insert_product - INFO - Product inserted successfully.
+
+2025-03-06 12:29:55,661 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741246109, 'iat': 1741244309, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:29:55,661 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:29:55,664 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:29:55,681 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: [Errno 2] No such file or directory: 'static/product_images/Screenshot from 2025-03-05 14-32-05.png'
+
+2025-03-06 12:29:55,681 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:29:55,682 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:31:28,140 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741246109, 'iat': 1741244309, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:31:28,141 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:31:28,195 - product_controller.py - FlaskMVCProject -  edit_product - INFO - edit product successfully
+
+2025-03-06 12:31:28,278 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741246109, 'iat': 1741244309, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:31:28,278 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:31:28,281 - product_controller.py - FlaskMVCProject -  ajax_load_subcategory - INFO - ajax load subcategory successfully
+
+2025-03-06 12:32:51,651 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741246109, 'iat': 1741244309, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:32:51,651 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:32:51,654 - product_controller.py - FlaskMVCProject -  edit_product - INFO - edit product successfully
+
+2025-03-06 12:32:51,726 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741246109, 'iat': 1741244309, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:32:51,726 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:32:51,728 - product_controller.py - FlaskMVCProject -  ajax_load_subcategory - INFO - ajax load subcategory successfully
+
+2025-03-06 12:32:55,825 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741246109, 'iat': 1741244309, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:32:55,825 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:32:55,840 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:32:55,876 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: [Errno 2] No such file or directory: 'static/product_images/Screenshot from 2025-03-05 14-32-05.png'
+
+2025-03-06 12:32:55,876 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:32:55,877 - product_controller.py - FlaskMVCProject -  update_product - INFO - Product updated successfully
+
+2025-03-06 12:32:55,881 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741246109, 'iat': 1741244309, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:32:55,881 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:32:55,885 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:32:55,906 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: [Errno 2] No such file or directory: 'static/product_images/Screenshot from 2025-03-05 14-32-05.png'
+
+2025-03-06 12:32:55,907 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:32:55,907 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:33:46,136 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741246109, 'iat': 1741244309, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:33:46,136 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:33:46,186 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:33:46,208 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: [Errno 2] No such file or directory: 'static/product_images/Screenshot from 2025-03-05 14-32-05.png'
+
+2025-03-06 12:33:46,208 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:33:46,208 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:33:58,806 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741246109, 'iat': 1741244309, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:33:58,806 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:33:58,849 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:33:58,866 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: [Errno 2] No such file or directory: 'static/product_images/Screenshot from 2025-03-05 14-32-05.png'
+
+2025-03-06 12:33:58,866 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:33:58,866 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:43:04,268 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741246109, 'iat': 1741244309, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:43:04,268 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:43:04,272 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:43:04,288 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: [Errno 2] No such file or directory: 'static/product_images/Screenshot from 2025-03-05 14-32-05.png'
+
+2025-03-06 12:43:04,288 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:43:04,288 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:43:26,870 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741246109, 'iat': 1741244309, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:43:26,871 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:43:26,871 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-06 12:43:35,401 - login_dao.py - FlaskMVCProject -  validate_login - INFO - Query Result for username prince: <LoginVO 25>
+
+2025-03-06 12:43:35,401 - login_dao.py - FlaskMVCProject -  validate_login - INFO - User prince validated successfully.
+
+2025-03-06 12:43:35,401 - login_service.py - FlaskMVCProject -  generate_token - DEBUG - Creating access token with payload: {'exp': datetime.datetime(2025, 3, 6, 7, 43, 35, 401469, tzinfo=datetime.timezone.utc), 'iat': datetime.datetime(2025, 3, 6, 7, 13, 35, 401481, tzinfo=datetime.timezone.utc), 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:43:35,401 - login_service.py - FlaskMVCProject -  generate_token - INFO - Access token payload created successfully
+
+2025-03-06 12:43:35,402 - login_controller.py - FlaskMVCProject -  load_home_page - INFO - Access & Refresh token created for user: prince
+
+2025-03-06 12:43:35,411 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741247015, 'iat': 1741245215, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:43:35,411 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:43:35,411 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-06 12:43:36,844 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741247015, 'iat': 1741245215, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:43:36,844 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:43:36,847 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:43:36,861 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: [Errno 2] No such file or directory: 'static/product_images/Screenshot from 2025-03-05 14-32-05.png'
+
+2025-03-06 12:43:36,861 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:43:36,861 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:45:42,841 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741247015, 'iat': 1741245215, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:45:42,841 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:45:42,884 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:45:42,904 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: [Errno 2] No such file or directory: 'static/product_images/Screenshot from 2025-03-05 14-32-05.png'
+
+2025-03-06 12:45:42,904 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:45:42,904 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:55:37,892 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741247015, 'iat': 1741245215, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:55:37,892 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:55:37,939 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:55:37,961 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: [Errno 2] No such file or directory: 'static/product_images/Screenshot from 2025-03-05 14-32-05.png'
+
+2025-03-06 12:55:37,962 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:55:37,962 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:56:38,008 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741247015, 'iat': 1741245215, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:56:38,008 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:56:38,013 - product_controller.py - FlaskMVCProject -  edit_product - INFO - edit product successfully
+
+2025-03-06 12:56:38,096 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741247015, 'iat': 1741245215, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:56:38,096 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:56:38,099 - product_controller.py - FlaskMVCProject -  ajax_load_subcategory - INFO - ajax load subcategory successfully
+
+2025-03-06 12:56:44,298 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741247015, 'iat': 1741245215, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:56:44,298 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:56:44,314 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:56:44,351 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: [Errno 2] No such file or directory: 'static/product_images/Screenshot from 2025-03-05 14-32-05.png'
+
+2025-03-06 12:56:44,352 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:56:44,352 - product_controller.py - FlaskMVCProject -  update_product - INFO - Product updated successfully
+
+2025-03-06 12:56:44,356 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741247015, 'iat': 1741245215, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:56:44,356 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:56:44,359 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:56:44,385 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: [Errno 2] No such file or directory: 'static/product_images/Screenshot from 2025-03-05 14-32-05.png'
+
+2025-03-06 12:56:44,385 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:56:44,385 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:57:55,755 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741247015, 'iat': 1741245215, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:57:55,755 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:57:55,760 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:57:55,783 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: [Errno 2] No such file or directory: 'static/product_images/Screenshot from 2025-03-05 14-32-05.png'
+
+2025-03-06 12:57:55,783 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:57:55,783 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:58:12,271 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741247015, 'iat': 1741245215, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:58:12,271 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:58:12,316 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:58:12,344 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: [Errno 2] No such file or directory: 'static/product_images/Screenshot from 2025-03-05 14-32-05.png'
+
+2025-03-06 12:58:12,344 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:58:12,344 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:58:29,124 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741247015, 'iat': 1741245215, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:58:29,124 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:58:29,128 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:58:29,222 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 12:58:29,223 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:58:29,223 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:59:20,910 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741247015, 'iat': 1741245215, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:59:20,911 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:59:20,955 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:59:21,054 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 12:59:21,054 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:59:21,054 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:59:37,441 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741247015, 'iat': 1741245215, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:59:37,442 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:59:37,500 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:59:37,885 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 12:59:37,885 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:59:37,886 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 12:59:56,431 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741247015, 'iat': 1741245215, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 12:59:56,431 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 12:59:56,478 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 12:59:56,584 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 12:59:56,584 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 12:59:56,584 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 13:00:11,214 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741247015, 'iat': 1741245215, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 13:00:11,214 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 13:00:11,260 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 13:00:11,357 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 13:00:11,357 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 13:00:11,357 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 13:00:50,958 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741247015, 'iat': 1741245215, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 13:00:50,958 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 13:00:51,008 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 13:00:51,098 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 13:00:51,098 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 13:00:51,098 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 13:04:48,880 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741247015, 'iat': 1741245215, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 13:04:48,880 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 13:04:48,885 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 13:04:48,966 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 13:04:48,966 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 13:04:48,967 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 13:06:29,757 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741247015, 'iat': 1741245215, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 13:06:29,758 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 13:06:29,807 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 13:06:29,904 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 13:06:29,904 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 13:06:29,904 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 13:06:59,298 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741247015, 'iat': 1741245215, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 13:06:59,298 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 13:06:59,342 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 13:06:59,414 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 13:06:59,414 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 13:06:59,414 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 13:08:08,366 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741247015, 'iat': 1741245215, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 13:08:08,366 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 13:08:08,370 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 13:08:08,436 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 13:08:08,436 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 13:08:08,436 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 13:09:19,268 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741247015, 'iat': 1741245215, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 13:09:19,268 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 13:09:19,315 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 13:09:19,321 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: name 'x_offset' is not defined
+
+2025-03-06 13:09:19,321 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 13:09:19,321 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 13:09:38,711 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741247015, 'iat': 1741245215, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 13:09:38,711 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 13:09:38,717 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 13:09:38,721 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: name 'x_offset' is not defined
+
+2025-03-06 13:09:38,721 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 13:09:38,721 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 13:09:51,450 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741247015, 'iat': 1741245215, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 13:09:51,450 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 13:09:51,496 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 13:09:51,572 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 13:09:51,572 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 13:09:51,572 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 13:10:49,121 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741247015, 'iat': 1741245215, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 13:10:49,121 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 13:10:49,169 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 13:10:49,241 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 13:10:49,241 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 13:10:49,241 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 13:12:14,457 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741247015, 'iat': 1741245215, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 13:12:14,457 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 13:12:14,502 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 13:12:14,569 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 13:12:14,569 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 13:12:14,569 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 13:12:47,676 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741247015, 'iat': 1741245215, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 13:12:47,676 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 13:12:47,727 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 13:12:47,793 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: 'dict' object has no attribute '_get_xf_index'
+
+2025-03-06 13:12:47,793 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 13:12:47,793 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 13:13:19,002 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741247015, 'iat': 1741245215, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 13:13:19,002 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 13:13:19,006 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 13:13:19,072 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - ERROR - Error in create_excel_for_product: 'dict' object has no attribute '_get_xf_index'
+
+2025-03-06 13:13:19,072 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 13:13:19,072 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 13:13:55,493 - login_dao.py - FlaskMVCProject -  validate_login - INFO - Query Result for username prince: <LoginVO 25>
+
+2025-03-06 13:13:55,493 - login_dao.py - FlaskMVCProject -  validate_login - INFO - User prince validated successfully.
+
+2025-03-06 13:13:55,494 - login_service.py - FlaskMVCProject -  generate_token - DEBUG - Creating access token with payload: {'exp': datetime.datetime(2025, 3, 6, 8, 13, 55, 494007, tzinfo=datetime.timezone.utc), 'iat': datetime.datetime(2025, 3, 6, 7, 43, 55, 494014, tzinfo=datetime.timezone.utc), 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 13:13:55,494 - login_service.py - FlaskMVCProject -  generate_token - INFO - Access token payload created successfully
+
+2025-03-06 13:13:55,494 - login_controller.py - FlaskMVCProject -  load_home_page - INFO - Access & Refresh token created for user: prince
+
+2025-03-06 13:13:55,499 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741248835, 'iat': 1741247035, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 13:13:55,499 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 13:13:55,499 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-06 13:13:57,054 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741248835, 'iat': 1741247035, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 13:13:57,055 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 13:13:57,069 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 13:13:57,202 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 13:13:57,203 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 13:13:57,203 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 13:14:29,024 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741248835, 'iat': 1741247035, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 13:14:29,024 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 13:14:29,076 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 13:14:29,150 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 13:14:29,150 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 13:14:29,150 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 13:15:30,218 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741248835, 'iat': 1741247035, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 13:15:30,218 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 13:15:30,264 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 13:15:30,332 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 13:15:30,332 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 13:15:30,332 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 13:15:58,897 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741248835, 'iat': 1741247035, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 13:15:58,897 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 13:15:58,946 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 13:15:59,017 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 13:15:59,017 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 13:15:59,017 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 13:16:22,039 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741248835, 'iat': 1741247035, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 13:16:22,039 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 13:16:22,082 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 13:16:22,162 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 13:16:22,162 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 13:16:22,162 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 13:17:48,574 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741248835, 'iat': 1741247035, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 13:17:48,574 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 13:17:48,623 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 13:17:48,702 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 13:17:48,702 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 13:17:48,702 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 13:21:06,776 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741248835, 'iat': 1741247035, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 13:21:06,776 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 13:21:06,825 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 13:21:06,936 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 13:21:06,937 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 13:21:06,937 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-06 15:33:10,586 - login_dao.py - FlaskMVCProject -  validate_login - INFO - Query Result for username prince: <LoginVO 25>
+
+2025-03-06 15:33:10,586 - login_dao.py - FlaskMVCProject -  validate_login - INFO - User prince validated successfully.
+
+2025-03-06 15:33:10,586 - login_service.py - FlaskMVCProject -  generate_token - DEBUG - Creating access token with payload: {'exp': datetime.datetime(2025, 3, 6, 10, 33, 10, 586584, tzinfo=datetime.timezone.utc), 'iat': datetime.datetime(2025, 3, 6, 10, 3, 10, 586592, tzinfo=datetime.timezone.utc), 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 15:33:10,586 - login_service.py - FlaskMVCProject -  generate_token - INFO - Access token payload created successfully
+
+2025-03-06 15:33:10,587 - login_controller.py - FlaskMVCProject -  load_home_page - INFO - Access & Refresh token created for user: prince
+
+2025-03-06 15:33:10,591 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741257190, 'iat': 1741255390, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 15:33:10,591 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 15:33:10,591 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-06 15:33:18,550 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741257190, 'iat': 1741255390, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-06 15:33:18,551 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-06 15:40:03,764 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-06 15:40:08,625 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-06 15:40:08,626 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-06 15:40:08,626 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-07 11:01:47,267 - login_dao.py - FlaskMVCProject -  validate_login - INFO - Query Result for username prince: <LoginVO 25>
+
+2025-03-07 11:01:47,267 - login_dao.py - FlaskMVCProject -  validate_login - INFO - User prince validated successfully.
+
+2025-03-07 11:01:47,268 - login_service.py - FlaskMVCProject -  generate_token - DEBUG - Creating access token with payload: {'exp': datetime.datetime(2025, 3, 7, 6, 1, 47, 267985, tzinfo=datetime.timezone.utc), 'iat': datetime.datetime(2025, 3, 7, 5, 31, 47, 267991, tzinfo=datetime.timezone.utc), 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 11:01:47,268 - login_service.py - FlaskMVCProject -  generate_token - INFO - Access token payload created successfully
+
+2025-03-07 11:01:47,268 - login_controller.py - FlaskMVCProject -  load_home_page - INFO - Access & Refresh token created for user: prince
+
+2025-03-07 11:01:47,273 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741327307, 'iat': 1741325507, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 11:01:47,273 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 11:01:47,273 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-07 11:01:56,679 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741327307, 'iat': 1741325507, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 11:01:56,679 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 11:01:56,679 - login_controller.py - FlaskMVCProject -  logout - INFO - User logged out successfully
+
+2025-03-07 11:02:18,125 - login_dao.py - FlaskMVCProject -  validate_login - INFO - Query Result for username prince: <LoginVO 25>
+
+2025-03-07 11:02:18,125 - login_dao.py - FlaskMVCProject -  validate_login - INFO - User prince validated successfully.
+
+2025-03-07 11:02:18,125 - login_service.py - FlaskMVCProject -  generate_token - DEBUG - Creating access token with payload: {'exp': datetime.datetime(2025, 3, 7, 6, 2, 18, 125160, tzinfo=datetime.timezone.utc), 'iat': datetime.datetime(2025, 3, 7, 5, 32, 18, 125169, tzinfo=datetime.timezone.utc), 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 11:02:18,125 - login_service.py - FlaskMVCProject -  generate_token - INFO - Access token payload created successfully
+
+2025-03-07 11:02:18,125 - login_controller.py - FlaskMVCProject -  load_home_page - INFO - Access & Refresh token created for user: prince
+
+2025-03-07 11:02:18,129 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741327338, 'iat': 1741325538, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 11:02:18,129 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 11:02:18,130 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-07 11:02:19,607 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741327338, 'iat': 1741325538, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 11:02:19,607 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 11:02:19,607 - login_controller.py - FlaskMVCProject -  logout - INFO - User logged out successfully
+
+2025-03-07 11:02:31,972 - login_dao.py - FlaskMVCProject -  validate_login - INFO - Query Result for username prince: <LoginVO 25>
+
+2025-03-07 11:02:31,972 - login_dao.py - FlaskMVCProject -  validate_login - INFO - User prince validated successfully.
+
+2025-03-07 11:02:31,972 - login_service.py - FlaskMVCProject -  generate_token - DEBUG - Creating access token with payload: {'exp': datetime.datetime(2025, 3, 7, 6, 2, 31, 972916, tzinfo=datetime.timezone.utc), 'iat': datetime.datetime(2025, 3, 7, 5, 32, 31, 972926, tzinfo=datetime.timezone.utc), 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 11:02:31,972 - login_service.py - FlaskMVCProject -  generate_token - INFO - Access token payload created successfully
+
+2025-03-07 11:02:31,973 - login_controller.py - FlaskMVCProject -  load_home_page - INFO - Access & Refresh token created for user: prince
+
+2025-03-07 11:02:31,978 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741327351, 'iat': 1741325551, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 11:02:31,979 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 11:02:31,979 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-07 12:00:15,191 - login_dao.py - FlaskMVCProject -  validate_login - INFO - Query Result for username prince: <LoginVO 25>
+
+2025-03-07 12:00:15,191 - login_dao.py - FlaskMVCProject -  validate_login - INFO - User prince validated successfully.
+
+2025-03-07 12:00:15,191 - login_service.py - FlaskMVCProject -  generate_token - DEBUG - Creating access token with payload: {'exp': datetime.datetime(2025, 3, 7, 7, 0, 15, 191323, tzinfo=datetime.timezone.utc), 'iat': datetime.datetime(2025, 3, 7, 6, 30, 15, 191347, tzinfo=datetime.timezone.utc), 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 12:00:15,191 - login_service.py - FlaskMVCProject -  generate_token - INFO - Access token payload created successfully
+
+2025-03-07 12:00:15,191 - login_controller.py - FlaskMVCProject -  load_home_page - INFO - Access & Refresh token created for user: prince
+
+2025-03-07 12:00:15,197 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741330815, 'iat': 1741329015, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 12:00:15,197 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 12:00:15,197 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-07 12:00:17,711 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741330815, 'iat': 1741329015, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 12:00:17,711 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 12:00:49,143 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741330815, 'iat': 1741329015, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 12:00:49,144 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 12:00:49,144 - register_controller.py - FlaskMVCProject -  register - INFO - Received form data: prince, rudani, Male, princerudani2003@gmail.com, prince, prince@123
+
+2025-03-07 12:00:49,144 - register_controller.py - FlaskMVCProject -  register - ERROR - Error in register route: Password must be at least 8 characters long, include an uppercase letter, a lowercase letter, a number, and a special character.
+
+2025-03-07 12:06:20,602 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741330815, 'iat': 1741329015, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 12:06:20,602 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 12:06:24,748 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741330815, 'iat': 1741329015, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 12:06:24,748 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 12:11:04,674 - login_dao.py - FlaskMVCProject -  validate_login - INFO - Query Result for username prince: <LoginVO 25>
+
+2025-03-07 12:11:04,674 - login_dao.py - FlaskMVCProject -  validate_login - INFO - User prince validated successfully.
+
+2025-03-07 12:11:04,674 - login_service.py - FlaskMVCProject -  generate_token - DEBUG - Creating access token with payload: {'exp': datetime.datetime(2025, 3, 7, 7, 11, 4, 674891, tzinfo=datetime.timezone.utc), 'iat': datetime.datetime(2025, 3, 7, 6, 41, 4, 674899, tzinfo=datetime.timezone.utc), 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 12:11:04,674 - login_service.py - FlaskMVCProject -  generate_token - INFO - Access token payload created successfully
+
+2025-03-07 12:11:04,675 - login_controller.py - FlaskMVCProject -  load_home_page - INFO - Access & Refresh token created for user: prince
+
+2025-03-07 12:11:04,678 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741331464, 'iat': 1741329664, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 12:11:04,678 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 12:11:04,678 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-07 12:11:08,159 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741331464, 'iat': 1741329664, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 12:11:08,159 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 12:11:27,029 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741331464, 'iat': 1741329664, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 12:11:27,029 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 12:11:30,847 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741331464, 'iat': 1741329664, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 12:11:30,847 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 12:11:30,847 - login_controller.py - FlaskMVCProject -  logout - INFO - User logged out successfully
+
+2025-03-07 12:15:50,868 - login_dao.py - FlaskMVCProject -  validate_login - INFO - Query Result for username prince: <LoginVO 25>
+
+2025-03-07 12:15:50,868 - login_dao.py - FlaskMVCProject -  validate_login - INFO - User prince validated successfully.
+
+2025-03-07 12:15:50,868 - login_service.py - FlaskMVCProject -  generate_token - DEBUG - Creating access token with payload: {'exp': datetime.datetime(2025, 3, 7, 7, 15, 50, 868452, tzinfo=datetime.timezone.utc), 'iat': datetime.datetime(2025, 3, 7, 6, 45, 50, 868461, tzinfo=datetime.timezone.utc), 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 12:15:50,868 - login_service.py - FlaskMVCProject -  generate_token - INFO - Access token payload created successfully
+
+2025-03-07 12:15:50,868 - login_controller.py - FlaskMVCProject -  load_home_page - INFO - Access & Refresh token created for user: prince
+
+2025-03-07 12:15:50,872 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741331750, 'iat': 1741329950, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 12:15:50,873 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 12:15:50,873 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-07 12:15:53,625 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741331750, 'iat': 1741329950, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 12:15:53,625 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 12:15:53,625 - login_controller.py - FlaskMVCProject -  logout - INFO - User logged out successfully
+
+2025-03-07 12:21:13,677 - login_dao.py - FlaskMVCProject -  validate_login - INFO - Query Result for username prince: <LoginVO 25>
+
+2025-03-07 12:21:13,677 - login_dao.py - FlaskMVCProject -  validate_login - INFO - User prince validated successfully.
+
+2025-03-07 12:21:13,677 - login_service.py - FlaskMVCProject -  generate_token - DEBUG - Creating access token with payload: {'exp': datetime.datetime(2025, 3, 7, 7, 21, 13, 677502, tzinfo=datetime.timezone.utc), 'iat': datetime.datetime(2025, 3, 7, 6, 51, 13, 677509, tzinfo=datetime.timezone.utc), 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 12:21:13,677 - login_service.py - FlaskMVCProject -  generate_token - INFO - Access token payload created successfully
+
+2025-03-07 12:21:13,678 - login_controller.py - FlaskMVCProject -  load_home_page - INFO - Access & Refresh token created for user: prince
+
+2025-03-07 12:21:13,684 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741332073, 'iat': 1741330273, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 12:21:13,684 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 12:21:13,684 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-07 12:21:18,503 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741332073, 'iat': 1741330273, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 12:21:18,503 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 12:21:57,137 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741332073, 'iat': 1741330273, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 12:21:57,137 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 12:22:31,166 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741332073, 'iat': 1741330273, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 12:22:31,166 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 12:23:02,977 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741332073, 'iat': 1741330273, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 12:23:02,978 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 12:34:31,362 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741332073, 'iat': 1741330273, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 12:34:31,362 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 12:37:51,892 - login_dao.py - FlaskMVCProject -  validate_login - INFO - Query Result for username prince: <LoginVO 25>
+
+2025-03-07 12:37:51,892 - login_dao.py - FlaskMVCProject -  validate_login - INFO - User prince validated successfully.
+
+2025-03-07 12:37:51,892 - login_service.py - FlaskMVCProject -  generate_token - DEBUG - Creating access token with payload: {'exp': datetime.datetime(2025, 3, 7, 7, 37, 51, 892676, tzinfo=datetime.timezone.utc), 'iat': datetime.datetime(2025, 3, 7, 7, 7, 51, 892683, tzinfo=datetime.timezone.utc), 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 12:37:51,892 - login_service.py - FlaskMVCProject -  generate_token - INFO - Access token payload created successfully
+
+2025-03-07 12:37:51,892 - login_controller.py - FlaskMVCProject -  load_home_page - INFO - Access & Refresh token created for user: prince
+
+2025-03-07 12:37:51,897 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741333071, 'iat': 1741331271, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 12:37:51,898 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 12:37:51,898 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-07 12:39:08,558 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741333071, 'iat': 1741331271, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 12:39:08,558 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 12:39:08,558 - login_controller.py - FlaskMVCProject -  logout - INFO - User logged out successfully
+
+2025-03-07 13:06:47,903 - login_controller.py - FlaskMVCProject -  load_home_page - ERROR - Unexpected error: 'NoneType' object has no attribute 'strip'
+
+2025-03-07 13:11:59,940 - login_controller.py - FlaskMVCProject -  load_home_page - ERROR - Unexpected error: 'NoneType' object has no attribute 'strip'
+
+2025-03-07 13:12:13,469 - login_controller.py - FlaskMVCProject -  load_home_page - ERROR - Unexpected error: 'NoneType' object has no attribute 'strip'
+
+2025-03-07 13:18:30,944 - login_controller.py - FlaskMVCProject -  load_home_page - ERROR - Unexpected error: 'NoneType' object has no attribute 'strip'
+
+2025-03-07 13:25:12,601 - login_dao.py - FlaskMVCProject -  validate_login - INFO - Query Result for username prince: <LoginVO 25>
+
+2025-03-07 13:25:12,602 - login_dao.py - FlaskMVCProject -  validate_login - INFO - User prince validated successfully.
+
+2025-03-07 13:25:12,602 - login_service.py - FlaskMVCProject -  generate_token - DEBUG - Creating access token with payload: {'exp': datetime.datetime(2025, 3, 7, 8, 25, 12, 602154, tzinfo=datetime.timezone.utc), 'iat': datetime.datetime(2025, 3, 7, 7, 55, 12, 602161, tzinfo=datetime.timezone.utc), 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 13:25:12,602 - login_service.py - FlaskMVCProject -  generate_token - INFO - Access token payload created successfully
+
+2025-03-07 13:25:12,602 - login_controller.py - FlaskMVCProject -  load_home_page - INFO - Access & Refresh token created for user: prince
+
+2025-03-07 13:25:12,606 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741335912, 'iat': 1741334112, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 13:25:12,606 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 13:25:12,606 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-07 13:25:17,029 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741335912, 'iat': 1741334112, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 13:25:17,029 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 13:25:17,030 - login_controller.py - FlaskMVCProject -  logout - INFO - User logged out successfully
+
+2025-03-07 18:05:41,141 - login_dao.py - FlaskMVCProject -  validate_login - INFO - Query Result for username prince: <LoginVO 25>
+
+2025-03-07 18:05:41,142 - login_dao.py - FlaskMVCProject -  validate_login - WARNING - Invalid password for user: prince
+
+2025-03-07 18:05:41,142 - login_controller.py - FlaskMVCProject -  load_home_page - ERROR - Unexpected error: Invalid username or password.
+
+2025-03-07 18:05:45,962 - login_dao.py - FlaskMVCProject -  validate_login - INFO - Query Result for username prince: <LoginVO 25>
+
+2025-03-07 18:05:45,962 - login_dao.py - FlaskMVCProject -  validate_login - INFO - User prince validated successfully.
+
+2025-03-07 18:05:45,962 - login_service.py - FlaskMVCProject -  generate_token - DEBUG - Creating access token with payload: {'exp': datetime.datetime(2025, 3, 7, 13, 5, 45, 962834, tzinfo=datetime.timezone.utc), 'iat': datetime.datetime(2025, 3, 7, 12, 35, 45, 962852, tzinfo=datetime.timezone.utc), 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 18:05:45,963 - login_service.py - FlaskMVCProject -  generate_token - INFO - Access token payload created successfully
+
+2025-03-07 18:05:45,963 - login_controller.py - FlaskMVCProject -  load_home_page - INFO - Access & Refresh token created for user: prince
+
+2025-03-07 18:05:45,967 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741352745, 'iat': 1741350945, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 18:05:45,967 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 18:05:45,967 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-07 18:07:30,870 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741352745, 'iat': 1741350945, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 18:07:30,870 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 18:07:30,870 - category_controller.py - FlaskMVCProject -  load_category - INFO - Load category successfully
+
+2025-03-07 18:07:35,393 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741352745, 'iat': 1741350945, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 18:07:35,393 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 18:07:35,401 - category_service.py - FlaskMVCProject -  add_category_service - INFO - Insert category successfully
+
+2025-03-07 18:07:35,401 - category_controller.py - FlaskMVCProject -  insert_category - INFO - Category inserted successfully: Name -> prince, Description -> prince rudbabiubbcdbd
+
+2025-03-07 18:07:35,405 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741352745, 'iat': 1741350945, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-07 18:07:35,405 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-07 18:07:35,406 - category_service.py - FlaskMVCProject -  view_category_service - INFO - view category successfully [<CategoryVO 2>, <CategoryVO 3>, <CategoryVO 4>, <CategoryVO 5>, <CategoryVO 7>, <CategoryVO 99>, <CategoryVO 101>, <CategoryVO 2300>] 
+
+2025-03-07 18:07:35,406 - category_controller.py - FlaskMVCProject -  view_category - INFO - View category: [<CategoryVO 2>, <CategoryVO 3>, <CategoryVO 4>, <CategoryVO 5>, <CategoryVO 7>, <CategoryVO 99>, <CategoryVO 101>, <CategoryVO 2300>]
+
+2025-03-08 13:32:00,853 - login_dao.py - FlaskMVCProject -  validate_login - INFO - Query Result for username prince: <LoginVO 25>
+
+2025-03-08 13:32:00,854 - login_dao.py - FlaskMVCProject -  validate_login - INFO - User prince validated successfully.
+
+2025-03-08 13:32:00,854 - login_service.py - FlaskMVCProject -  generate_token - DEBUG - Creating access token with payload: {'exp': datetime.datetime(2025, 3, 8, 8, 32, 0, 854587, tzinfo=datetime.timezone.utc), 'iat': datetime.datetime(2025, 3, 8, 8, 2, 0, 854600, tzinfo=datetime.timezone.utc), 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-08 13:32:00,854 - login_service.py - FlaskMVCProject -  generate_token - INFO - Access token payload created successfully
+
+2025-03-08 13:32:00,855 - login_controller.py - FlaskMVCProject -  load_home_page - INFO - Access & Refresh token created for user: prince
+
+2025-03-08 13:32:00,862 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741422720, 'iat': 1741420920, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-08 13:32:00,862 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-08 13:32:00,862 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-08 14:21:51,945 - login_dao.py - FlaskMVCProject -  validate_login - INFO - Query Result for username prince: <LoginVO 25>
+
+2025-03-08 14:21:51,945 - login_dao.py - FlaskMVCProject -  validate_login - INFO - User prince validated successfully.
+
+2025-03-08 14:21:51,946 - login_service.py - FlaskMVCProject -  generate_token - DEBUG - Creating access token with payload: {'exp': datetime.datetime(2025, 3, 8, 9, 21, 51, 945989, tzinfo=datetime.timezone.utc), 'iat': datetime.datetime(2025, 3, 8, 8, 51, 51, 946003, tzinfo=datetime.timezone.utc), 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-08 14:21:51,946 - login_service.py - FlaskMVCProject -  generate_token - INFO - Access token payload created successfully
+
+2025-03-08 14:21:51,946 - login_controller.py - FlaskMVCProject -  load_home_page - INFO - Access & Refresh token created for user: prince
+
+2025-03-08 14:21:51,952 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741425711, 'iat': 1741423911, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-08 14:21:51,952 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-08 14:21:51,952 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-08 14:21:57,437 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741425711, 'iat': 1741423911, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-08 14:21:57,437 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-08 14:21:57,437 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-08 14:21:57,775 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741425711, 'iat': 1741423911, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-08 14:21:57,776 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-08 14:21:57,776 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-08 14:21:58,010 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741425711, 'iat': 1741423911, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-08 14:21:58,011 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-08 14:21:58,011 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-08 14:21:58,203 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741425711, 'iat': 1741423911, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-08 14:21:58,203 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-08 14:21:58,204 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-08 14:21:58,362 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741425711, 'iat': 1741423911, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-08 14:21:58,362 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-08 14:21:58,362 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-08 14:55:13,691 - login_dao.py - FlaskMVCProject -  validate_login - INFO - Query Result for username prince: <LoginVO 25>
+
+2025-03-08 14:55:13,692 - login_dao.py - FlaskMVCProject -  validate_login - INFO - User prince validated successfully.
+
+2025-03-08 14:55:13,692 - login_service.py - FlaskMVCProject -  generate_token - DEBUG - Creating access token with payload: {'exp': datetime.datetime(2025, 3, 8, 9, 55, 13, 692383, tzinfo=datetime.timezone.utc), 'iat': datetime.datetime(2025, 3, 8, 9, 25, 13, 692403, tzinfo=datetime.timezone.utc), 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-08 14:55:13,692 - login_service.py - FlaskMVCProject -  generate_token - INFO - Access token payload created successfully
+
+2025-03-08 14:55:13,693 - login_controller.py - FlaskMVCProject -  load_home_page - INFO - Access & Refresh token created for user: prince
+
+2025-03-08 14:55:13,703 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741427713, 'iat': 1741425913, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-08 14:55:13,703 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-08 14:55:13,704 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-08 14:55:18,263 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741427713, 'iat': 1741425913, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-08 14:55:18,263 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-08 14:55:18,274 - category_service.py - FlaskMVCProject -  view_category_service - INFO - view category successfully [<CategoryVO 2>, <CategoryVO 3>, <CategoryVO 4>, <CategoryVO 5>, <CategoryVO 7>, <CategoryVO 99>, <CategoryVO 101>, <CategoryVO 2300>] 
+
+2025-03-08 14:55:18,275 - category_controller.py - FlaskMVCProject -  view_category - INFO - View category: [<CategoryVO 2>, <CategoryVO 3>, <CategoryVO 4>, <CategoryVO 5>, <CategoryVO 7>, <CategoryVO 99>, <CategoryVO 101>, <CategoryVO 2300>]
+
+2025-03-08 14:55:22,061 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741427713, 'iat': 1741425913, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-08 14:55:22,061 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-08 14:55:22,078 - category_service.py - FlaskMVCProject -  delete_category_service - INFO - delete category successfully : 99
+
+2025-03-08 14:55:22,086 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741427713, 'iat': 1741425913, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-08 14:55:22,086 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-08 14:55:22,088 - category_service.py - FlaskMVCProject -  view_category_service - INFO - view category successfully [<CategoryVO 2>, <CategoryVO 3>, <CategoryVO 4>, <CategoryVO 5>, <CategoryVO 7>, <CategoryVO 101>, <CategoryVO 2300>] 
+
+2025-03-08 14:55:22,089 - category_controller.py - FlaskMVCProject -  view_category - INFO - View category: [<CategoryVO 2>, <CategoryVO 3>, <CategoryVO 4>, <CategoryVO 5>, <CategoryVO 7>, <CategoryVO 101>, <CategoryVO 2300>]
+
+2025-03-08 14:55:25,093 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741427713, 'iat': 1741425913, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-08 14:55:25,093 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-08 14:55:25,104 - category_service.py - FlaskMVCProject -  delete_category_service - INFO - delete category successfully : 101
+
+2025-03-08 14:55:25,111 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741427713, 'iat': 1741425913, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-08 14:55:25,112 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-08 14:55:25,114 - category_service.py - FlaskMVCProject -  view_category_service - INFO - view category successfully [<CategoryVO 2>, <CategoryVO 3>, <CategoryVO 4>, <CategoryVO 5>, <CategoryVO 7>, <CategoryVO 2300>] 
+
+2025-03-08 14:55:25,114 - category_controller.py - FlaskMVCProject -  view_category - INFO - View category: [<CategoryVO 2>, <CategoryVO 3>, <CategoryVO 4>, <CategoryVO 5>, <CategoryVO 7>, <CategoryVO 2300>]
+
+2025-03-08 14:55:26,590 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741427713, 'iat': 1741425913, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-08 14:55:26,590 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-08 14:55:26,603 - category_service.py - FlaskMVCProject -  delete_category_service - INFO - delete category successfully : 2300
+
+2025-03-08 14:55:26,609 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741427713, 'iat': 1741425913, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-08 14:55:26,610 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-08 14:55:26,613 - category_service.py - FlaskMVCProject -  view_category_service - INFO - view category successfully [<CategoryVO 2>, <CategoryVO 3>, <CategoryVO 4>, <CategoryVO 5>, <CategoryVO 7>] 
+
+2025-03-08 14:55:26,613 - category_controller.py - FlaskMVCProject -  view_category - INFO - View category: [<CategoryVO 2>, <CategoryVO 3>, <CategoryVO 4>, <CategoryVO 5>, <CategoryVO 7>]
+
+2025-03-08 14:55:27,410 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741427713, 'iat': 1741425913, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-08 14:55:27,411 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-08 14:55:27,411 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-08 14:55:28,552 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741427713, 'iat': 1741425913, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-08 14:55:28,552 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-08 14:55:28,562 - subcategory_service.py - FlaskMVCProject -  view_subcategory_service - INFO - Retrieved subcategory list
+
+2025-03-08 14:55:28,563 - subcategory_controller.py - FlaskMVCProject -  view_sub_category - INFO - view sub category successfully [(<CategoryVO 4>, <SubcategoryVO 3>), (<CategoryVO 2>, <SubcategoryVO 4>), (<CategoryVO 7>, <SubcategoryVO 5>), (<CategoryVO 3>, <SubcategoryVO 6>), (<CategoryVO 3>, <SubcategoryVO 30>)] 
+
+2025-03-08 14:55:30,910 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741427713, 'iat': 1741425913, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-08 14:55:30,910 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-08 14:55:30,910 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-08 14:55:31,730 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741427713, 'iat': 1741425913, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-08 14:55:31,730 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-08 14:55:31,753 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-08 14:55:31,993 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-08 14:55:31,994 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-08 14:55:31,994 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-08 14:55:34,619 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741427713, 'iat': 1741425913, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-08 14:55:34,619 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-08 14:55:34,635 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-08 14:55:34,723 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-08 14:55:34,723 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-08 14:55:34,724 - product_controller.py - FlaskMVCProject -  delete_product - INFO - delete product successfully
+
+2025-03-08 14:55:34,729 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741427713, 'iat': 1741425913, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-08 14:55:34,729 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-08 14:55:34,733 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-08 14:55:34,812 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-08 14:55:34,812 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-08 14:55:34,812 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-08 14:55:49,639 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741427713, 'iat': 1741425913, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-08 14:55:49,639 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-08 14:55:49,640 - login_controller.py - FlaskMVCProject -  logout - INFO - User logged out successfully
+
+2025-03-08 14:56:12,475 - login_dao.py - FlaskMVCProject -  validate_login - INFO - Query Result for username prince: <LoginVO 25>
+
+2025-03-08 14:56:12,475 - login_dao.py - FlaskMVCProject -  validate_login - INFO - User prince validated successfully.
+
+2025-03-08 14:56:12,475 - login_service.py - FlaskMVCProject -  generate_token - DEBUG - Creating access token with payload: {'exp': datetime.datetime(2025, 3, 8, 9, 56, 12, 475749, tzinfo=datetime.timezone.utc), 'iat': datetime.datetime(2025, 3, 8, 9, 26, 12, 475763, tzinfo=datetime.timezone.utc), 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-08 14:56:12,475 - login_service.py - FlaskMVCProject -  generate_token - INFO - Access token payload created successfully
+
+2025-03-08 14:56:12,476 - login_controller.py - FlaskMVCProject -  load_home_page - INFO - Access & Refresh token created for user: prince
+
+2025-03-08 14:56:12,482 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741427772, 'iat': 1741425972, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-08 14:56:12,483 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-08 14:56:12,483 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-12 10:12:09,971 - login_dao.py - FlaskMVCProject -  validate_login - INFO - Query Result for username prince: <LoginVO 25>
+
+2025-03-12 10:12:09,971 - login_dao.py - FlaskMVCProject -  validate_login - WARNING - Invalid password for user: prince
+
+2025-03-12 10:12:09,971 - login_controller.py - FlaskMVCProject -  load_home_page - ERROR - Unexpected error: Invalid username or password.
+
+2025-03-12 10:12:41,983 - login_dao.py - FlaskMVCProject -  validate_login - INFO - Query Result for username prince: <LoginVO 25>
+
+2025-03-12 10:12:41,983 - login_dao.py - FlaskMVCProject -  validate_login - INFO - User prince validated successfully.
+
+2025-03-12 10:12:41,983 - login_service.py - FlaskMVCProject -  generate_token - DEBUG - Creating access token with payload: {'exp': datetime.datetime(2025, 3, 12, 5, 12, 41, 983522, tzinfo=datetime.timezone.utc), 'iat': datetime.datetime(2025, 3, 12, 4, 42, 41, 983530, tzinfo=datetime.timezone.utc), 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-12 10:12:41,983 - login_service.py - FlaskMVCProject -  generate_token - INFO - Access token payload created successfully
+
+2025-03-12 10:12:41,983 - login_controller.py - FlaskMVCProject -  load_home_page - INFO - Access & Refresh token created for user: prince
+
+2025-03-12 10:12:41,991 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741756361, 'iat': 1741754561, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-12 10:12:41,991 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-12 10:12:41,991 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+
+2025-03-12 10:12:44,996 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741756361, 'iat': 1741754561, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-12 10:12:44,996 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-12 10:12:45,003 - category_service.py - FlaskMVCProject -  view_category_service - INFO - view category successfully [<CategoryVO 2>, <CategoryVO 3>, <CategoryVO 4>, <CategoryVO 5>, <CategoryVO 7>] 
+
+2025-03-12 10:12:45,003 - category_controller.py - FlaskMVCProject -  view_category - INFO - View category: [<CategoryVO 2>, <CategoryVO 3>, <CategoryVO 4>, <CategoryVO 5>, <CategoryVO 7>]
+
+2025-03-12 10:12:49,755 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741756361, 'iat': 1741754561, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-12 10:12:49,756 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-12 10:12:49,761 - subcategory_service.py - FlaskMVCProject -  view_subcategory_service - INFO - Retrieved subcategory list
+
+2025-03-12 10:12:49,761 - subcategory_controller.py - FlaskMVCProject -  view_sub_category - INFO - view sub category successfully [(<CategoryVO 4>, <SubcategoryVO 3>), (<CategoryVO 2>, <SubcategoryVO 4>), (<CategoryVO 7>, <SubcategoryVO 5>), (<CategoryVO 3>, <SubcategoryVO 6>), (<CategoryVO 3>, <SubcategoryVO 30>)] 
+
+2025-03-12 10:12:55,795 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741756361, 'iat': 1741754561, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-12 10:12:55,795 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-12 10:12:55,832 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-12 10:12:55,893 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-12 10:12:55,893 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-12 10:12:55,893 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-12 10:13:10,126 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741756361, 'iat': 1741754561, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-12 10:13:10,126 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-12 10:13:10,129 - product_controller.py - FlaskMVCProject -  edit_product - INFO - edit product successfully
+
+2025-03-12 10:13:10,219 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741756361, 'iat': 1741754561, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-12 10:13:10,219 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-12 10:13:10,221 - product_controller.py - FlaskMVCProject -  ajax_load_subcategory - INFO - ajax load subcategory successfully
+
+2025-03-12 10:13:13,566 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741756361, 'iat': 1741754561, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-12 10:13:13,566 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-12 10:13:13,575 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-12 10:13:13,621 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-12 10:13:13,621 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-12 10:13:13,621 - product_controller.py - FlaskMVCProject -  update_product - INFO - Product updated successfully
+
+2025-03-12 10:13:13,626 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741756361, 'iat': 1741754561, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-12 10:13:13,626 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-12 10:13:13,629 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Starting thread to generate Excel.
+
+2025-03-12 10:13:13,677 - generate_excel_file.py - FlaskMVCProject -  create_excel_for_product - INFO - Excel file created successfully at base/static/excel_sheet/product_excel_sheet.xlsx
+
+2025-03-12 10:13:13,677 - generate_excel_file.py - FlaskMVCProject -  excel_data_from_product_table - INFO - Excel file generation completed.
+
+2025-03-12 10:13:13,677 - product_controller.py - FlaskMVCProject -  view_products - INFO - view product successfully
+
+2025-03-12 10:13:24,273 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741756361, 'iat': 1741754561, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-12 10:13:24,273 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-12 10:13:24,277 - product_controller.py - FlaskMVCProject -  edit_product - INFO - edit product successfully
+
+2025-03-12 10:13:24,361 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741756361, 'iat': 1741754561, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-12 10:13:24,361 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-12 10:13:24,367 - product_controller.py - FlaskMVCProject -  ajax_load_subcategory - INFO - ajax load subcategory successfully
+
+2025-03-12 10:13:27,813 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741756361, 'iat': 1741754561, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-12 10:13:27,814 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-12 10:13:27,817 - product_controller.py - FlaskMVCProject -  edit_product - INFO - edit product successfully
+
+2025-03-12 10:13:27,888 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741756361, 'iat': 1741754561, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-12 10:13:27,888 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-12 10:13:27,890 - product_controller.py - FlaskMVCProject -  ajax_load_subcategory - INFO - ajax load subcategory successfully
+
+2025-03-12 10:13:33,746 - login_service.py - FlaskMVCProject -  decorator - DEBUG - Decoded access token data: {'exp': 1741756361, 'iat': 1741754561, 'user_id': 25, 'user_email': 'prince', 'user_role': 'ADMIN'}
+
+2025-03-12 10:13:33,746 - login_service.py - FlaskMVCProject -  decorator - INFO - Access token successfully validated
+
+2025-03-12 10:13:33,747 - login_controller.py - FlaskMVCProject -  admin_home_page - INFO - Admin accessing home page
+

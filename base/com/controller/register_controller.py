@@ -9,13 +9,13 @@ logger = my_logger.get_logger()
 
 
 @app.route('/load_register', methods=['GET'])
-@LoginService.login_required(role="ADMIN")
+# @LoginService.login_required(role="ADMIN")
 def load_register():
     return render_template('login_and_register/register.html')
 
 
 @app.route('/insert_register', methods=['POST'])
-@LoginService.login_required(role="ADMIN")
+# @LoginService.login_required(role="ADMIN")
 def register():
     try:
         register_firstname = request.form.get(

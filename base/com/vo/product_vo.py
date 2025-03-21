@@ -45,4 +45,6 @@ class ProductVO(db.Model):
             'create_at': self.create_at,
             'modify_at': self.modify_at,
         }
+
+
 db.create_all()

@@ -1,11 +1,12 @@
 import os
+
 from base.com.dao.product_dao import ProductDAO
 from base.com.vo.product_vo import ProductVO
 from base.com.vo.subcategory_vo import SubcategoryVO
 from base.utils.generate_excel_file import excel_data_from_product_table
 from base.utils.time_stamp import get_current_timestamp
 
-image_directory = os.path.join("base", "static", "product_images")
+image_directory = '/home/prince/sahana_projects/FlaskMVCProject/base/static/product_images'
 
 
 class ProductService:
@@ -46,9 +47,9 @@ class ProductService:
             product_vo.product_price = product_dto.product_price
             product_vo.product_description = product_dto.product_description
             product_vo.product_image_name = image_name
-            product_vo.product_image_path = os.path.join("static",
-                                                         "product_images",
-                                                         image_name)
+            product_vo.product_image_path = os.path.join(
+                "home", "prince", "sahana_projects", "FlaskMVCProject",
+                "base,static", "product_images", image_name)
             product_vo.product_quantity = product_dto.product_quantity
 
             timestamp = get_current_timestamp()

@@ -1,0 +1,159 @@
+    alembic==1.14.1
+aniso8601==10.0.0
+annotated-types==0.7.0
+anyio==4.8.0
+arrow==1.3.0
+asgiref @ file:///croot/asgiref_1724072470684/work
+astroid @ file:///croot/astroid_1736455921794/work
+attrs @ file:///croot/attrs_1734533101012/work
+azure-core==1.32.0
+azure-identity==1.21.0
+azure-keyvault-secrets==4.9.0
+backend==0.2.4.1
+bcrypt==4.0.1
+black==25.1.0
+blinker==1.7.0
+boto3==1.36.23
+boto3-stubs==1.37.15
+botocore==1.36.23
+botocore-stubs==1.37.15
+Bottleneck @ file:///croot/bottleneck_1731058641041/work
+Brotli @ file:///croot/brotli-split_1736182456865/work
+cachetools==5.5.2
+certifi @ file:///croot/certifi_1738623731865/work/certifi
+cffi @ file:///work/ci_py311/cffi_1676822533496/work
+charset-normalizer @ file:///croot/charset-normalizer_1721748349566/work
+chevron==0.14.0
+circuitbreaker==2.0.0
+click==8.1.8
+configu==0.6.3
+cryptography @ file:///croot/cryptography_1740577825284/work
+Cython==3.0.12
+dill @ file:///croot/dill_1715094664823/work
+Django==5.1.6
+djangorestframework==3.15.2
+dnspython==2.7.0
+email_validator==2.2.0
+et-xmlfile==1.1.0
+fastapi==0.115.8
+fastapi-cli==0.0.7
+ffmpeg==1.4
+ffmpeg-python==0.2.0
+Flask @ file:///croot/flask_1702980023242/work
+Flask-JWT-Extended @ file:///work/ci_py311/flask-jwt-extended_1676827756937/work
+Flask-Migrate==4.1.0
+flask-restx @ file:///croot/flask-restx_1716552242693/work
+Flask-SQLAlchemy @ file:///croot/flask-sqlalchemy_1712567272472/work
+future==1.0.0
+google-api-core==2.24.2
+google-auth==2.38.0
+google-cloud-secret-manager==2.23.2
+googleapis-common-protos==1.69.2
+greenlet==3.1.1
+grpc-google-iam-v1==0.14.2
+grpcio==1.71.0
+grpcio-status==1.71.0
+h11==0.14.0
+httpagentparser==1.9.5
+httpcore==1.0.7
+httptools==0.6.4
+httpx==0.28.1
+idna==3.10
+importlib_resources==6.5.2
+iniconfig==2.0.0
+isodate==0.7.2
+isort @ file:///croot/isort_1736366665795/work
+itsdangerous==2.1.2
+Jinja2==3.1.6
+jmespath==0.10.0
+jsonschema @ file:///croot/jsonschema_1728486696720/work
+jsonschema-specifications==2024.10.1
+jwt==1.3.1
+kubernetes==26.1.0
+Mako==1.3.9
+markdown-it-py==3.0.0
+MarkupSafe @ file:///croot/markupsafe_1736366905094/work
+marshmallow @ file:///croot/marshmallow_1682620721570/work
+mccabe @ file:///opt/conda/conda-bld/mccabe_1644221741721/work
+mdurl==0.1.2
+meson==1.7.0
+mkl-service==2.4.0
+mkl_fft @ file:///io/mkl313/mkl_fft_1730824109137/work
+mkl_random @ file:///io/mkl313/mkl_random_1730823916628/work
+msal==1.32.0
+msal-extensions==1.3.1
+mypy-boto3-secretsmanager==1.37.0
+mypy-extensions==1.0.0
+mysql-connector-python @ file:///croot/mysql-connector-python_1732522279975/work/mysql-connector-python
+mysqlclient==2.2.7
+numexpr @ file:///croot/numexpr_1730215937391/work
+numpy @ file:///croot/numpy_and_numpy_base_1738078506782/work/dist/numpy-2.2.2-cp311-cp311-linux_x86_64.whl#sha256=fccf79eedddc21f243ebd66aef37e4637b30ee0ec731991c480022c6b305d819
+oauthlib==3.2.2
+oci==2.145.0
+oci-cli==3.51.8
+openpyxl @ file:///croot/openpyxl_1736366913861/work
+packaging==24.2
+pandas @ file:///croot/pandas_1732735089971/work/dist/pandas-2.2.3-cp311-cp311-linux_x86_64.whl#sha256=884420a58b11b4c9b7f4df21046caaae9229522b672b557f0f98c84251141fc5
+param==2.2.0
+parsedatetime==2.6
+pathspec==0.12.1
+pillow==11.1.0
+platformdirs @ file:///croot/platformdirs_1692205439124/work
+pluggy==1.5.0
+probe==0.0.2
+prompt-toolkit==3.0.43
+proto-plus==1.26.1
+protobuf==5.29.3
+py.validator==0.18.0
+pyasn1==0.6.1
+pyasn1_modules==0.4.1
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pydantic==2.10.6
+pydantic_core==2.27.2
+Pygments==2.19.1
+PyJWT @ file:///croot/pyjwt_1715094751094/work
+pylint @ file:///croot/pylint_1736469691131/work
+PyMySQL==1.1.1
+pyOpenSSL @ file:///croot/pyopenssl_1741343803032/work
+PySocks @ file:///work/ci_py311/pysocks_1676822712504/work
+pytest==8.3.4
+python-dateutil @ file:///croot/python-dateutil_1716484871790/work
+python-dotenv==1.0.1
+python-multipart==0.0.20
+pytz @ file:///croot/pytz_1713974312559/work
+pyviz_comms==3.0.4
+PyYAML @ file:///croot/pyyaml_1698096049011/work
+recurrent==0.2.4
+referencing==0.36.2
+requests @ file:///croot/requests_1730999120400/work
+requests-oauthlib==2.0.0
+rich==13.9.4
+rich-toolkit==0.13.2
+rpds-py==0.23.1
+rsa==4.9
+s3transfer==0.11.2
+shellingham==1.5.4
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+sniffio==1.3.1
+SQLAlchemy==2.0.38
+sqlparse==0.5.3
+starlette==0.45.3
+terminaltables==3.1.10
+timestring==1.6.4
+tomlkit @ file:///croot/tomlkit_1728650307440/work
+typer==0.15.2
+types-awscrt==0.24.2
+types-python-dateutil==2.9.0.20241206
+types-s3transfer==0.11.4
+typing==3.7.4.3
+typing_extensions==4.12.2
+tzdata @ file:///croot/python-tzdata_1690578112552/work
+urllib3 @ file:///croot/urllib3_1737133630106/work
+uvicorn==0.34.0
+uvloop==0.21.0
+watchfiles==1.0.4
+wcwidth==0.2.13
+websocket-client==1.8.0
+websockets==15.0.1
+Werkzeug==3.0.1
+XlsxWriter @ file:///croot/xlsxwriter_1685021106863/work

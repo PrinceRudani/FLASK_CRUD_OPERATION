@@ -36,16 +36,8 @@ def load_sub_category():
 @app.route('/insert_sub_category', methods=['POST', 'GET'])
 @LoginService.login_required(role="ADMIN")
 def insert_sub_category():
-    """Insert a new subcategory.
-    
-    Takes form data for subcategory name, description and parent category ID.
-    Validates required fields and inserts new subcategory through service layer.
-    
-    Returns:
-        redirect: Redirects to view subcategories on success
-        rendered template: Returns to form with error message on validation failure
-        redirect: Redirects to load form on error
-    """
+    """Insert a new subcategory. """
+
     try:
         subcategory_dto = SubcategoryDTO()
         subcategory_category_id = request.form.get('subCategoryCategoryId')

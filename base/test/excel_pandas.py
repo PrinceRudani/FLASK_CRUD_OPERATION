@@ -1,4 +1,5 @@
 import io
+
 import xlsxwriter
 from PIL import Image
 
@@ -23,26 +24,29 @@ def create_excel(data_, file_name):
     worksheet.set_column(3, 3, cell_width)  # Set column width for the image
 
     for row_num, item in enumerate(data_, 1):
+        print(f"Item: {item}")
         worksheet.write(row_num, 0, item['Category_Name'], center_format)
         # worksheet.write(row_num, 1, item['Price'], center_format)
-        worksheet.write(row_num, 1, item['Category_Description'],
+        worksheet.write(row_num, 1, item['Price'],
                         center_format)
 
         image_data_ = item['Image']
+        print(f"Image data: {image_data_}")
         image_stream = io.BytesIO(image_data_)
         image = Image.open(image_stream)
 
         # Resize the image to fit the cell size
         image = image.resize((cell_width * 7, cell_height))
 
-        worksheet.set_row(row_num, cell_height)  # Set row height to match image height
+        worksheet.set_row(row_num,
+                          cell_height)  # Set row height to match image height
 
         output = io.BytesIO()
         image.save(output, format="PNG")
         output.seek(0)
 
         # Calculate the x_offset to center the image within the cell
-        x_offset = (cell_width * 7 - image.size[0])//3   # Center the image
+        x_offset = (cell_width * 7 - image.size[0]) // 3  # Center the image
         # horizontally
 
         # Insert the image with proper x_offset to center it
@@ -54,31 +58,29 @@ def create_excel(data_, file_name):
     workbook.close()
 
 
-# data_ = [
-#     {
-#         "Category_Name": "Electronics",
-#         "Price": 299.99,
-#         "Quantity": 10,
-#         "Image": open(
-#             "/home/prince/sahana_projects/FlaskMVCProject/base/static/product_images/14pro.jpg",
-#             "rb").read()
-#     },
-#     {
-#         "Category_Name": "Books",
-#         "Price": 19.99,
-#         "Quantity": 50,
-#         "Image": open(
-#             "/home/prince/sahana_projects/FlaskMVCProject/base/static/product_images/15pro.jpg",
-#             "rb").read()
-#     },
-#     {
-#         "Category_Name": "Books",
-#         "Price": 19.99,
-#         "Quantity": 50,
-#         "Image": open(
-#             "/home/prince/sahana_projects/FlaskMVCProject/base/static/product_images/jacket.jpg",
-#             "rb").read()
-#     },
-# ]
+data_ = [
+    {
+        "Category_Name": "Electronics",
+        "Price": 299.99,
+        "Quantity": 10,
+        "Image": open("/home/prince/sahana_projects/FlaskMVCProject/base/static/product_images/15pro.jpg", "rb").read()
+    },
+    # {
+    #     "Category_Name": "Books",
+    #     "Price": 19.99,
+    #     "Quantity": 50,
+    #     "Image": open(
+    #         "/product_images/14pro.jpg",
+    #         "rb").read()
+    # },
+    # {
+    #     "Category_Name": "Books",
+    #     "Price": 19.99,
+    #     "Quantity": 50,
+    #     "Image": open(
+    #         "/product_images/dumbble.jpg",
+    #         "rb").read()
+    # },
+]
 
-# create_excel(data_, "image_excel.xlsx")
+create_excel(data_, "image_excel.xlsx")
